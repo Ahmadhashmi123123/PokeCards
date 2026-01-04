@@ -33,7 +33,7 @@ The app allows users to log in, browse Pokémon cards, search cards by name, vie
 
 5. ⭐ Favourites System
 - Add Pokémon cards to favourites
-- Favourites stored using a **Singleton Favourite Manager**
+- Favourites stored using a Singleton Favourite Manager
 - Separate favourites screen
 - No duplicate favourites allowed
 
