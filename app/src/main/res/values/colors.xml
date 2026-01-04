@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_gradient">#FFF5F5F5</color>
+    <color name="pokemon_red">#aa3742</color>       <!-- Pokémon theme red -->
+    <color name="pokemon_yellow">#665f82</color>    <!-- Accent yellow -->
+    <color name="pokemon_blue">#50bab2</color>      <!-- Pokémon accent blue -->
+    <color name="background">#F5F5F5</color>
+    <color name="button_color">#FF3B30</color>
+</resources>
