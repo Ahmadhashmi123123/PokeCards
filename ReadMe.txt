@@ -1,54 +1,43 @@
-# 🃏 PokeCards – Pokémon Cards Viewer App
+PokeCards – Pokémon Cards Viewer App
 
 PokeCards is an Android application that displays Pokémon cards in a modern grid layout with a clean UI.  
 The app allows users to log in, browse Pokémon cards, search cards by name, view enlarged card images, and manage favourites.
 
----
+1. Features
 
-## 🚀 Features
-
-### 🔐 Authentication
-- Login system using **SharedPreferences**
+🔐 Authentication
+- Login system using SharedPreferences
 - Signup screen
 - Forget Password functionality
 - Session handling (Login / Logout)
 
----
-
-### 🏠 Home Screen (Cards Screen)
-- Pokémon cards displayed in a **Grid RecyclerView**
-- Cards loaded from **local JSON file (assets)**
+2. 🏠 Home Screen (Cards Screen)
+- Pokémon cards displayed in a Grid RecyclerView
+- Cards loaded from local JSON file (assets)
 - Smooth scrolling and optimized performance
-- **Toolbar with centered logo**
-- Search Pokémon by name using **SearchView**
-- Rounded card design using **CardView + Drawable**
+- Toolbar with centered logo
+- Search Pokémon by name using SearchView
+- Rounded card design using CardView + Drawable
 
----
 
-### 🔍 Search Functionality
+3. 🔍 Search Functionality
 - Real-time Pokémon search from toolbar
 - Case-insensitive filtering
 - Works smoothly with RecyclerView adapter
 
----
-
-### 🖼️ Card Image Preview
-- Tap on any card to open a **full-screen enlarged image**
+4. 🖼️ Card Image Preview
+- Tap on any card to open a full-screen enlarged image
 - Dark transparent background for focus
 - Tap image to close preview
-- Implemented using **Dialog + Glide**
+- Implemented using Dialog + Glide
 
----
-
-### ⭐ Favourites System
+5. ⭐ Favourites System
 - Add Pokémon cards to favourites
 - Favourites stored using a **Singleton Favourite Manager**
 - Separate favourites screen
 - No duplicate favourites allowed
 
----
-
-### 👤 Profile & Menu Options
+6. 👤 Profile & Menu Options
 - Action Menu in Toolbar:
   - About App
   - Favourites
@@ -56,29 +45,25 @@ The app allows users to log in, browse Pokémon cards, search cards by name, vie
 - User session cleared on logout
 - Smooth navigation between screens
 
----
+7. 🛠️ Technologies & Components Used
 
-## 🛠️ Technologies & Components Used
+- Java
+- Android SDK
+- RecyclerView
+- GridLayoutManager
+- CardView
+- Toolbar
+- SearchView
+- Dialog
+- SharedPreferences
+- Singleton Pattern
+- Gson (JSON Parsing)
+- Glide  (Image Loading)
+- ConstraintLayout
+- Drawable Resources (Rounded Cards)
+- Intents & Activities
 
-- **Java**
-- **Android SDK**
-- **RecyclerView**
-- **GridLayoutManager**
-- **CardView**
-- **Toolbar**
-- **SearchView**
-- **Dialog**
-- **SharedPreferences**
-- **Singleton Pattern**
-- **Gson** (JSON Parsing)
-- **Glide** (Image Loading)
-- **ConstraintLayout**
-- **Drawable Resources** (Rounded Cards)
-- **Intents & Activities**
-
----
-
-## 📂 Data Source
+8. 📂 Data Source
 - Pokémon card data loaded from a local JSON file
 - Card details include:
   - Name
@@ -91,9 +76,7 @@ The app allows users to log in, browse Pokémon cards, search cards by name, vie
   - EX status
   - Full Art status
 
----
-
-## 🎨 UI/UX Highlights
+9. 🎨 UI/UX Highlights
 - Clean and modern interface
 - Rounded card views
 - Responsive layouts
@@ -101,19 +84,15 @@ The app allows users to log in, browse Pokémon cards, search cards by name, vie
 - Toolbar logo aligned at center
 - Smooth user experience
 
----
-
-## 📌 Future Improvements
+10. 📌 Future Improvements
 - Online API integration
 - User profile image
 - Dark mode support
 - Cloud-based favourites
 - Animations and transitions
 
----
+👨‍💻 Developer
 
-## 👨‍💻 Developer
-
-**Developed by Ahmad Hashmi**  
-**PokeCards v1.0**  
-**23-ARID-686**
+Developed by Ahmad Hashmi  
+PokeCards v1.0
+23-ARID-686
