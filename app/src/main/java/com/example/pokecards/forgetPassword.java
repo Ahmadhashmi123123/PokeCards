@@ -38,7 +38,7 @@ public class forgetPassword extends AppCompatActivity {
                 editor.apply();
 
                 Toast.makeText(forgetPassword.this,"Password Updated Successfully",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(forgetPassword.this, login.class);
+                Intent intent = new Intent(forgetPassword.this, MainActivity.class);
                 startActivity(intent);
             }
         });
